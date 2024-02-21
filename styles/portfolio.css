@@ -1,11 +1,17 @@
+:root {
+  --branding-color: #ffffff;
+  --heading-font-family: "Oswald", sans-serif;
+}
+
 body {
 }
 
 h1 {
-  font-family: "Oswald", sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: 700;
   text-align: center;
-  color: white;
+  color: var(--branding-color);
+  font-size: 96px;
 }
 
 p {
@@ -18,4 +24,11 @@ p {
 
 .hero {
   text-align: center;
+  padding: 160px 20px;
+}
+
+.hero h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
 }
