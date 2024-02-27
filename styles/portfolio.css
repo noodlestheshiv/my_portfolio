@@ -52,8 +52,36 @@ p {
   font-size: 18px;
 }
 
+.content-conteiner {
+  padding: 160px 20px;
+}
+
+.content-conteiner h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content-conteiner p {
+  font-size: 18px;
+  font-family: var(--heading-font-family);
+}
+
+.content-conteiner h2 {
+  font-size: 18px;
+}
+
 .about-section-content {
   margin: 30px;
+}
+
+.content {
+  margin: 30px;
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: var(--heading-font-family);
+  line-height: 2;
 }
 
 h2 {
@@ -83,6 +111,11 @@ h2 {
   }
 
   .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .content-conteiner {
     padding: 0;
     text-align: center;
   }
