@@ -82,6 +82,11 @@ p {
   font-size: 24px;
   font-family: var(--heading-font-family);
   line-height: 2;
+  text-align: center;
+}
+
+.content p {
+  text-align: center;
 }
 
 h2 {
