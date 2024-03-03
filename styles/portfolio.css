@@ -175,9 +175,12 @@ footer .social-links a:hover {
   background-color: var(--link-color);
 }
 
-footer .footer-button {
-  display: block;
-  margin: 0 auto;
+footer .git-link {
+  text-align: center;
+}
+
+footer .git-link p {
+  font-size: 18px;
 }
 
 @media (max-width: 960px) {
